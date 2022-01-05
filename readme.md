@@ -1,7 +1,9 @@
-#This is a fixed sized allocator implementation program
+#This is a fixed sized allocator implementation program built on top of memory allocation program.
 
-#Contain allocation and free function at line 16 and 27, respectively under 'FixedSizeAllocator.cpp' file
+#The program implements feature of creating a Fixed Sized Allocator which allocates fixed sized blocks of memory.
 
-#Trying to allocate the memory if present within FixedSizeAllocator, else trying to allocate memory from heap using the alloc function under HeapManager.cpp at line 45
+#Contain allocation and free function under 'FixedSizeAllocator.cpp' file to manage and optimize memory usage.
 
-#Implemented BitArray class under BitArray.cpp file to track blocks usage status. Getting and setting all bits, Getting first set and clear bit. 
+#Trying to allocate the memory if present within FixedSizeAllocator, else trying to allocate memory from heap using the alloc function under 'HeapManager.cpp'.
+
+#BitArray class under BitArray.cpp file to track blocks usage status. Getting and setting all bits.
